@@ -1,3 +1,4 @@
-import {count} from './count.js'
+import {count, increase} from './count.js'
 
+increase()
 console.log(count)
