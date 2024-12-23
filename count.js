@@ -1,1 +1,6 @@
-export const count = 1
+export let count = 0
+
+export function increase() {
+    return count += 1
+}
+
